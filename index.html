@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #main {
+        display: flex;
+        background: linear-gradient(to right, #00c6ff, #0072ff);
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        justify-content: space-around;
+    }
+
+    .abc {
+        box-shadow: 0 4px 10px rgba(15, 2, 200, 0.2);
+        width: 25%;
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    .abc {
+        transition: all 0.3s ease;
+    }
+
+    .abc:hover {
+        transform: translateY(-10px);
+    }
+
+    .card-img {
+        width: 80%;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+        #main {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .abc {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+  
+
+
+    }
+</style>
+
+<body>
+    <h1 style="text-align:center;">Product Cards</h1>
+    <div id="main">
+
+    </div>
+<hr>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
